@@ -6,7 +6,7 @@ use feature 'say';
 my @prime = ();
 sub is_prime {
     my $n = shift;
-    for my $p (@prime) { return 0 if $n % $p == 0; };
+    for my $p (@prime) { return 0 if $n % $p == 0; }
     my $start;
     scalar @prime > 0 ? $start = $prime[$#prime] : $start = 2;
     for (my $i = $start; $i <= $n/2; $i++){
