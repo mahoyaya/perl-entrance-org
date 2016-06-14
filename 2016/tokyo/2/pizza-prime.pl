@@ -16,12 +16,12 @@ sub is_prime {
   return 1;
 }
 
-my $max = 10000;
+my $max = 1000;
 for my $n (2..$max) {
   if (is_prime($n)) {
-    #say "Pizza";
+    say "Pizza";
   } else {
-    #say $n;
+    say $n;
     #push(@prime, $n);
     #unshift(@prime, $n);
   }
